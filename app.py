@@ -15,7 +15,7 @@ from pathlib import Path
 
 
 # Path to the trained LightGBM model
-MODEL_PATH = "rf_symptom_full.pkl"
+MODEL_PATH = "lightgbm_symptom_full.pkl"
 
 # Define a function to load the model safely
 @st.cache_resource(show_spinner=False)
