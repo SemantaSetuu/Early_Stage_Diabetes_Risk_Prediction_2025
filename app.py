@@ -9,6 +9,7 @@ import streamlit as st
 import joblib
 import pandas as pd
 from pathlib import Path
+from data_processing import build_preprocessor
 
 
 # Step 1: Load the Trained Model
